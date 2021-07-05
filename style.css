@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.shuvo{
+    color: orange;
+}
+.ali{
+    color: red;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(black,red);
+    font-weight: 700;
+}
