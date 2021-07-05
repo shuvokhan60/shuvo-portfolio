@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 40px;
@@ -27,4 +28,8 @@ section{
     border-radius: 10px;
     background-image: linear-gradient(black,red);
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
