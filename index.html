@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Shuvo Khan</title>
+  <meta name="description" content="A clean, single‑file HTML/CSS template inspired by rashedul.info for academic/personal profiles." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Top Navigation -->
+  <header>
+    <div class="container nav" role="navigation" aria-label="Main">
+      <div class="brand">
+        <img src="images/shuvo3.JPG" alt="Muhammad Shuvo Khan" />
+        <span>Md. Shuvo Khan</span>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#Skills Section">Skills Section</a>
+        <a href="#Education">Education</a>
+        <a href="#Certificates">Certificates </a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="cta" href="#cv" title="Download CV">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 011 1v8.586l2.293-2.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4A1 1 0 018.707 10.293L11 12.586V4a1 1 0 011-1z"></path><path d="M5 15a1 1 0 011-1h12a1 1 0 011 1v3a3 3 0 01-3 3H8a3 3 0 01-3-3v-3z"></path></svg>
+        <span>Download CV</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <span class="badge" aria-label="Role badge">Cloud Engineer • Devops Engineer • Site Reliability Engineer</span>
+        <h1>Automation, CI/CD and security Specialist in <span style="background: linear-gradient(135deg,var(--brand),var(--brand-2)); -webkit-background-clip:text; background-clip:text; color: transparent;">Cloud-Devops-SRE</span>.</h1>
+        <p class="lead">“I design scalable cloud infrastructure, automate workflows, and build reliable systems and security.” </p>
+        <div class="hero-card">
+          <div><strong>Current: </strong>BSc in CSE (University of Asia Pacific) </div>
+          <div class="sub">Interests: Cloud-Devops-SRE</div>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="images/shuvo1.jpeg" alt="Shuvo" />
+        <figcaption class="floating">Muhammad Shuvo Khan</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Main content: sidebar + sections -->
+  <div class="container two-col">
+    <!-- Sticky sidebar -->
+    <aside aria-label="Quick profile">
+      <div class="profile">
+        <img src="images/shuvo2.JPG" alt="Portrait of Dr. Rashedul Islam" />
+        <h3>Muhammad Shuvo Khan</h3>
+        <p>BSC — Computer Engineering at UAP</p>
+        <p>Riyadh, KSA • Dhaka, Bangladesh</p>
+        <div style="display:flex; gap:8px; justify-content:center; margin-top:10px;">
+          <a class="pill" href="#" aria-label="LinkedIn"> LinkedIn</a>
+          <a class="pill" href="#" aria-label="GitHub">GitHub</a>
+          <a class="pill" href="#" aria-label="vendor certification">Vendor certification</a>
+        </div>
+      </div>
+      <div class="quick" role="complementary" aria-label="Contact quick details">
+        <div class="row"><span>Email</span><a href="22101051@uap-bd.edu">22101051@uap-bd.edu</a></div>
+        <div class="row"><span>Phone Number</span><a id="cv" href="#">+8801910005013</a></div>
+        <div class="row"><span>Location</span><span>Riyadh, KSA</span></div>
+      </div>
+    </aside>
+
+    <!-- Content sections -->
+    <main>
+      <section id="about" aria-labelledby="about-h">
+        <div class="section-head">
+          <h2 id="about-h">About :</h2>
+          <span class="sub">Muhammad Shuvo Khan</span>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <p>
+              I am Shuvo, A Computer Science and Engineering student and a DevOps Engineer. I am
+passionate about cloud computing, Linux, and automation security. My goal is to build a successful career in
+DevOps and Devsecops .
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" aria-labelledby="exp-h">
+        <div class="section-head">
+          <h2 id="exp-h">Experience :</h2>
+          <span class="sub">Recent roles</span>
+        </div>
+        <div class="timeline">
+          <div class="t-item">
+            <h3> DevOps Engineer <span class="sub">in Saudi Telecommunication Company (STC)</span></h3>
+            <div class="t-meta">February 2025 — Present • Riyadh, kingdom of Saudia Arabia</div>
+            <p class="sub">Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions to automate testing and deployment.
+
+Containerized applications with Docker and deployed them on Kubernetes clusters for scalability.
+
+Used Terraform to provision and manage AWS infrastructure (EC2, S3, VPC, IAM).
+
+Implemented monitoring and alerting with Prometheus & Grafana, improving system reliability.
+
+Worked with Linux servers for automation, user management, and system administration tasks.</p>
+          </div>
+          <div class="t-item">
+            <h3>Cloud Engineer<span class="sub"> in Saudi Electricity Company</span></h3>
+            <div class="t-meta">Jan 2024 — Feb 2025 • Riyadh, KSA</div>
+            <p class="sub">Assisted small teams in migrating workloads to AWS Cloud, ensuring cost optimization and high availability.
+
+Built automated backup and disaster recovery scripts using Bash & Python.
+
+Deployed web applications with NGINX load balancer and enabled auto-scaling for traffic spikes.
+
+Set up logging & monitoring (ELK Stack) to improve observability and issue tracking.</p>
+          </div>
+          <div class="t-item">
+            <h3>Cloud intern<span class="sub"> in Bangladesh software ltd.</span></h3>
+            <div class="t-meta">2023 in Bangladesh </div>
+            <p class="sub">Networking-Linux-Cloud</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Skills Section" aria-labelledby="res-h">
+        <div class="section-head">
+          <h2 id="res-h">Skills : </h2>
+          <span class="sub">Shuvo </span>
+        </div>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Cloud </h3>
+            <p> AWS, Azure, GCP</p>
+          </article>
+          <article class="card">
+            <h3>DevOps Tools </h3>
+            <p> Docker, Kubernetes, Terraform, Jenkins, GitHub Actions</p>
+          </article>
+          <article class="card">
+            <h3>Linux & Networking </h3>
+            <p> RedHat-9 (Rhcsa), Ubuntu, CCNA </p>
+          </article>
+          <article class="card">
+            <h3>SRE Tools </h3>
+            <p> Prometheus, Grafana, ELK Stack</p>
+          </article>
+          <article class="card">
+            <h3>Programming/Scripting</h3>
+            <p>Python, C, JAVA, Bash</p>
+          </article>
+          <article class="card">
+            <h3>Language </h3>
+            <p>Bangla, Arabic, English, Hindi</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="Education" aria-labelledby="pub-h">
+        <div class="section-head">
+          <h2 id="pub-h">Education Section: </h2>
+          <span class="sub">Shuvo</span>
+        </div>
+        <ul class="pub-list">
+          <li class="pub">
+            <div class="title">University of Asia Pacific </div>
+            <div class="meta">BSC in CSE</div>
+          </li>
+          <li class="pub">
+            <div class="title">Meherpur Govt. College </div>
+            <div class="meta">HSC </div>
+          </li>
+          <li class="pub">
+            <div class="title">Meherpur Govt. High School </div>
+            <div class="meta">SSC </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="Certificates" aria-labelledby="teach-h">
+        <div class="section-head">
+          <h2 id="teach-h">Certificates:</h2>
+          <span class="sub">Shuvo</span>
+        </div>
+        <div class="grid cards">
+          <div class="card">
+            <h3>CCNA </h3>
+            <p>Cisco Certified Network Associate</p>
+          </div>
+          <div class="card">
+            <h3>RHCSA </h3>
+            <p>Red Hat Certified System Administrator</p>
+          </div>
+           <div class="card">
+            <h3>AWS Cloud </h3>
+            <p>AWS Certified Solutions Architect </p>
+            <p>AWS Certified DevOps Engineer – Professional </p>
+          </div>
+           <div class="card">
+            <h3>Azure </h3>
+            <p>AZ-400: DevOps Engineer Expert</p>
+          </div>
+           <div class="card">
+            <h3>Google Cloud </h3>
+            <p>Professional Cloud DevOps Engineer</p>
+          </div>
+          <div class="card">
+            <h3>CKA </h3>
+            <p>Certified Kubernetes Administrator </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-h">
+        <div class="section-head">
+          <h2 id="contact-h">Contact:</h2>
+          <span class="sub">Say Assalamualikum...</span>
+        </div>
+        <div class="card">
+          <form class="grid" style="grid-template-columns: 1fr 1fr; gap: 12px;" onsubmit="event.preventDefault(); alert('This is a demo form. Replace with your handler.');">
+            <label>
+              <span class="sr-only">Your name</span>
+              <input required type="text" name="name" placeholder="Your name" style="width:100%; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.03); color:var(--text);" />
+            </label>
+            <label>
+              <span class="sr-only">Your email</span>
+              <input required type="email" name="email" placeholder="you@example.com" style="width:100%; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.03); color:var(--text);" />
+            </label>
+            <label style="grid-column: 1 / -1;">
+              <span class="sr-only">Message</span>
+              <textarea required name="message" rows="4" placeholder="Your message" style="width:100%; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.03); color:var(--text);"></textarea>
+            </label>
+            <div style="grid-column: 1 / -1; display:flex; gap:10px; align-items:center;">
+              <button class="cta" type="submit">Send Message</button>
+              <span class="sub">Muhammad Shuvo Khan</span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <div>© <span id="y"></span> Muhammad Shuvo Khan</div>
+      <div class="sub"> Allah hafiz...</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
